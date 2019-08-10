@@ -12,3 +12,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/elbosso/Log4J2CustomJMXAppender.svg)](https://GitHub.com/elbosso/Log4J2CustomJMXAppender/graphs/contributors/)
 [![Github All Releases](https://img.shields.io/github/downloads/elbosso/Log4J2CustomJMXAppender/total.svg)](https://github.com/elbosso/Log4J2CustomJMXAppender)
 [![Website elbosso.github.io](https://img.shields.io/website-up-down-green-red/https/elbosso.github.io.svg)](https://elbosso.github.io/)
+
+## What is it?
+
+See https://github.com/elbosso/jconsole-plugin-log4j-jmx
