@@ -5,6 +5,28 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**automated maven release management**
+
+
+[a85bf63a3d16e1e](https://github.com/elbosso/Log4J2CustomJMXAppender/commit/a85bf63a3d16e1e) Juergen Key *2020-12-23 09:09:16*
+
+**Bump junit from 4.5 to 4.13.1**
+
+ * Bumps [junit](https://github.com/junit-team/junit4) from 4.5 to 4.13.1.
+ * - [Release notes](https://github.com/junit-team/junit4/releases)
+ * - [Changelog](https://github.com/junit-team/junit4/blob/main/doc/ReleaseNotes4.13.1.md)
+ * - [Commits](https://github.com/junit-team/junit4/commits/r4.13.1)
+ * Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+[ab7a751cfd863cc](https://github.com/elbosso/Log4J2CustomJMXAppender/commit/ab7a751cfd863cc) dependabot[bot] *2020-10-13 15:14:05*
+
+**Bump log4j-core from 2.12.1 to 2.13.2**
+
+ * Bumps log4j-core from 2.12.1 to 2.13.2.
+ * Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+[e00ce87c890e5f5](https://github.com/elbosso/Log4J2CustomJMXAppender/commit/e00ce87c890e5f5) dependabot[bot] *2020-07-01 19:11:04*
+
 **added changelog**
 
 
