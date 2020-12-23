@@ -6,7 +6,7 @@
 
   <groupId>de.elbosso</groupId>
   <artifactId>Log4J2CustomJMXAppender</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <name>Log4J2CustomJMXAppender</name>
   <description>A simple Log4J2CustomJMXAppender.</description>
