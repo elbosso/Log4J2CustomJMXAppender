@@ -5,6 +5,11 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**added changelog**
+
+
+[6b4d4b59e115a00](https://github.com/elbosso/Log4J2CustomJMXAppender/commit/6b4d4b59e115a00) Juergen Key *2019-08-25 12:55:06*
+
 **Update README.md**
 
 

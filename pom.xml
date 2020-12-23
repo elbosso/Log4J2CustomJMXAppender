@@ -10,13 +10,17 @@
 
   <name>Log4J2CustomJMXAppender</name>
   <description>A simple Log4J2CustomJMXAppender.</description>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://elbosso.github.io</url>
+    <scm>
+        <developerConnection>scm:git:https://github.com/elbosso/Log4J2CustomJMXAppender.git</developerConnection>
+      <tag>HEAD</tag>
+    </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+      <project.scm.id>elbossos-github</project.scm.id>
   </properties>
 
   <dependencies>
@@ -80,6 +84,14 @@
       </plugins>
     </pluginManagement>
     <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.0-M1</version>
+                <configuration>
+                    <!--preparationGoals>package assembly:single</preparationGoals-->
+                </configuration>
+            </plugin>
       <!-- https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml -->
       <plugin>
         <groupId>se.bjurr.gitchangelog</groupId>
@@ -103,6 +115,13 @@
     </plugins>
   </build>
 
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Internal repo</name>
+            <url>file:///tmp/</url>
+        </repository>
+    </distributionManagement>
   <reporting>
     <plugins>
       <plugin>
