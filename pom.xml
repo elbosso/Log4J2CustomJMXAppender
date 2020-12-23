@@ -5,14 +5,14 @@
 
   <groupId>de.elbosso</groupId>
   <artifactId>Log4J2CustomJMXAppender</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0-SNAPSHOT</version>
 
   <name>Log4J2CustomJMXAppender</name>
   <description>A simple Log4J2CustomJMXAppender.</description>
   <url>https://elbosso.github.io</url>
     <scm>
         <developerConnection>scm:git:https://github.com/elbosso/Log4J2CustomJMXAppender.git</developerConnection>
-      <tag>Log4J2CustomJMXAppender-1.0.0</tag>
+      <tag>HEAD</tag>
     </scm>
 
   <properties>
